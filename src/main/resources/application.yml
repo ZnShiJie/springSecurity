@@ -1,0 +1,25 @@
+## 应用名称
+#spring.application.name=springSecurity
+## 应用服务 WEB 访问端口
+#server.port=8080
+spring:
+  application:
+    name: springSecurity
+  datasource:
+    url: jdbc:mysql://localhost:3306/springsercurity?characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: admin123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  redis:
+    host: 192.168.88.130
+    port: 6379
+server:
+  port: 8080
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+
+
+
+
